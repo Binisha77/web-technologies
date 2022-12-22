@@ -1,0 +1,97 @@
+
+*{
+    background-color: rgb(233, 233, 107);
+}
+
+ 
+p{
+    color:rgb(5, 3, 3)
+    ;
+    text-align: center;
+    font-size:50px;
+    margin-top : 0px;
+    margin-bottom:0px;
+    
+}
+h1{
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top : 0px;
+    margin-bottom: 0px;
+    
+    
+}
+h2{
+    font-size: 80px;
+    text-align: center;
+}
+.Hobby{
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+section{
+    border:10px solid gray;
+    height: 40vh;
+    color: azure;
+}
+
+.description {
+    background: rgb(173, 138, 173);
+    width: 800px;
+    margin: 100px;
+    height: 50px;
+    border: 10px solid gray;
+    max-width: 700px;
+
+}
+body{
+    margin: 0px;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    text-align: justify;
+    text-align: center;
+}
+.hall {
+    font-size: medium;
+    justify-content: center;
+    
+}
+.tab{
+    text-align: center;
+    font-size: 1000px;
+}
+
+    
+    
+
+
+
+
+.apple{
+    display: block;
+    float: right;
+padding-left: 50px;
+padding-top: 23px;
+cursor: pointer;
+font-size:60px;
+}
+
+.footer{
+    padding-bottom: 10%;
+}
+
+.contact{
+    font-size:20px;
+}
+.down{
+    font-size: medium;
+}
+.con{
+    font-size: 30px;
+    
+}

@@ -1,0 +1,116 @@
+import java.util.*;
+public class MergeSort_2334062{
+    ArrayList arr= new ArrayList();
+    ArrayList getinput(ArrayList<Integer> al){
+        Scanner scan= new Scanner (System.in);
+        System.out.print("enter a range of list");
+        int num= scan.nextInt();
+        for(int i=0; i<num; i++){
+            System.out.print("enter a number add:");
+            int number = scan.nextInt();
+            al.add(number);
+        }
+        return al;
+    }
+     static void output(ArrayList<Integer>al){
+         for (int x=0; x< al.size(); x++){
+          System.out.print(al.get(x)+"");
+         }
+         }
+         ArrayList merge (ArrayList<Integer>temp, ArrayList<Integer> temp1){
+             ArrayList java= new ArrayList();
+             int left=0;
+             int right=0;
+             while (left< temp.size() & right<temp1.size()){
+                 if (temp.get(left) < temp1.get(right)) {
+                     java.add(temp.get(left));
+                     left++;
+                 }else{
+                     java.add(temp1.get(right));
+                     right++;
+                 }
+             }
+             while (left < temp.size()){
+                 java.add(temp.get(left));
+                 left++;
+             }
+             while (right < temp1.size()){
+                 java.add(temp1.get(right));
+                 right++;
+         }
+         return java;
+}
+ArrayList sort(ArrayList<Integer> al, int beg, int mid, int end){
+    ArrayList temp = new ArrayList();
+    ArrayList temp1 = new ArrayList();
+    while (beg < mid){
+        temp.add(al.get(beg));
+        beg++;
+    }
+    while (beg < mid){
+        temp.add(al.get(beg));
+        beg++;
+    }
+    while (mid < end){
+        temp1.add(al.get(mid));
+        mid++;
+    }
+    if (temp.size() !=1){
+        int a_beg=0;
+        int a_end = temp.size();
+        int a_mid;
+        if(a_end % 2==0){
+            a_mid = a_end /2;
+            
+        }else{
+            a_mid= (a_end +1) /2;
+        }
+        sort(temp, a_beg, a_mid, a_end);
+    }
+    if (temp1.size() != 1){
+        int b_beg=0;
+        int b_end = temp1.size();
+        int b_mid;
+        if (b_end % 2 ==0){
+            b_mid = b_end / 2;
+        } else{
+            b_mid = (b_end + 1)/ 2;
+        }
+        sort (temp1, b_beg, b_mid, b_end);
+    }
+    if (temp.size() != 1& temp1.size()== 1){
+        ArrayList arr1= merge(arr, temp1);
+        arr=arr1;
+    }
+    if (temp.size() ==1 & temp1.size()==1){
+        ArrayList arr2= merge(temp, temp1);
+        ArrayList arr1= merge(arr2, arr);
+        arr= arr1;
+    }
+    return arr;
+}
+public static void main(String[] args){
+    ArrayList al = new ArrayList();
+    MergeSort_2334062 obj = new MergeSort_2334062();
+    ArrayList list = obj.getinput(al);
+    System.out.print("Unsorted List: ");
+    output (list);
+    int end = list.size();
+    int beg=0;
+    int mid;
+    if (end % 2 ==0) {
+        mid = end /2;
+    }else{
+        mid = (end +1 )/ 2;
+        
+    }
+    ArrayList final_list = obj.sort(list, beg, mid, end);
+    System.out.println("");
+    System.out.print("sorted List: ");
+    output(final_list);
+    
+}
+}
+
+
+
