@@ -1,0 +1,25 @@
+header, footer{
+    border:3px solid rgb(19, 18, 15) ;
+    padding: 30px;
+    text-align: center;
+    font-size: 100px;
+    background-color: brown;
+}
+#content{
+    border:3px solid rgb(19, 18, 15) ;
+    text-align: left;
+    padding: 100px;
+    flex: 3;
+    background-color: aquamarine;
+
+}
+#hello{
+    border:3px solid rgb(19, 18, 15) ;
+    padding: 100px;
+    flex: 1;
+    background-color: blue;
+}
+
+main{
+    display: flex;
+}

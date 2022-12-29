@@ -6,11 +6,11 @@ body{
 }
 h1{
     border: 8PX solid rgb(17, 11, 11);
-    border-radius: 50px;
+    border-radius: 900px;
      /* margin: 400px;
     padding: 50px;  */
     height:25px;
-    width: 25px;
+    width: 95px;
     text-decoration:double;
 }
 li{

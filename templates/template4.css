@@ -1,12 +1,41 @@
-h1{
-     font-size: 80px;
-     color: beige;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 900px;
+    margin-bottom: 1000px;
+    margin-right: 500px;
+    width: 50%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    h1{
+    font-size: 80px;
+    color: beige;
+    margin-left: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    margin-right: 10px;
 }
 body{
-    background-color: rgb(195, 46, 26);
+   background-color: rgb(67, 32, 76);
+   justify-content: center;
+   min-height: 100vh;
+   overflow: hidden;
 }
 p{
-    font-size: large;
-    color: rgb(254, 254, 254);
+   font-size: large;
+   color: rgb(254, 254, 254);
+   text-align: right;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: justify;
+   margin-top: 300px;
+   margin-left: 900px;
+   position: fixed;
+   margin-right: 90px;
+   margin-top: 450px;
+  
 }
