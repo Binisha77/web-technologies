@@ -1,28 +1,34 @@
 *{
     box-sizing: border-box;
-    background-color: rgb(99, 160, 230);
+    background-color: rgb(11, 117, 53);
 }
-
-.photo {
-    float: left;
-    width: 33.33%;
-    padding: 3px;
-    margin-top: 200px;
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 150px;
 }
-.photo img{
-    height: 300px;
+.photo1{
+    flex:4
+}
+.photo2{
+    flex:4
+}
+.photo3{
+    flex:4
+}
+.par{
+    text-align: center;
+    margin-right: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
 }
 h1{
-    
-    text-align: center;
-   margin-top: 130px;
-   position: fixed;
-   margin-left: 600px;
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-    text-align: center;
+    text-align:center;
+    font-size: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.p{
-    margin-left: 900px;
+img{
+    height: 250px;
+    width: 250px;
 }
-
