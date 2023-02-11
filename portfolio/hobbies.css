@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(116, 184, 186);
+}
+.main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top:50px ;
+    display: flex;
+}
+.photo1{
+    flex:3
+    
+}
+.photo2{
+    flex:3
+}
+.photo3{
+    flex:3
+}
+.par{
+    text-align: center;
+    margin-right: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+h1{
+    text-align:center;
+    font-size: 90px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+img{
+    height: 250px;
+    width: 250px;
+}

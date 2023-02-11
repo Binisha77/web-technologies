@@ -1,0 +1,51 @@
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body
+{
+  background-image:url(backphoto.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+   
+
+}
+.menu{
+    background-color: rgb(3, 12, 46);
+    text-align: center;
+
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu ul li {
+    width: 130px;
+    margin : 20px;
+    padding: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: beige;
+}
+.home,.menu ul li a:over{
+    background-color: aqua;
+border-radius: 4px; 
+
+}
+.des{
+    position: absolute;
+    top:40%;
+    left:50%
+    transform translate(-50%,-50%);
+}
+.des h1{
+    cursor: pointer;
+    font-family: cursive;
+    color: antiquewhite;
+    font-size: 90px;
+}

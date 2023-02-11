@@ -1,0 +1,27 @@
+* {
+    padding: 0%;
+    margin: 0%;
+  }
+  body {
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgb(9, 125, 129);
+  }
+  .container {
+    position: relative;
+    width: 700px;
+    max-width: 700px;
+    border-radius: 2rem;
+    padding: 25px 40px 10px 40px;
+    box-shadow: rgb(0 0 0) 10px 10px 10px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(211, 179, 211, 0.5);
+    color: #333;
+    height: auto;
+  }
