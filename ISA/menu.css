@@ -1,0 +1,34 @@
+#menu{
+    text-align: center;
+}
+*{
+    background-color: rgb(195, 108, 108);
+    text-decoration-color: beige;
+}
+.h2{
+    text-align: center;
+    
+}
+body {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.menu-item {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin: 20px;
+}
+
+.menu-item h2 {
+	margin-top: 0;
+}
+
+.price {
+	font-weight: bold;
+	float: right;
+}
